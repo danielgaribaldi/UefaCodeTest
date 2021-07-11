@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/competitionSecondaryBackgroundColor"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/goalkeepers"
+            android:name="com.uefa.ui.TeamLineFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:teamLine="GOALKEEPER" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/defenders"
+            android:name="com.uefa.ui.TeamLineFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/goalkeepers"
+            app:teamLine="DEFENDER" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/midfielders"
+            android:name="com.uefa.ui.TeamLineFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/defenders"
+            app:teamLine="MIDFIELDER" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/forwards"
+            android:name="com.uefa.ui.TeamLineFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/midfielders"
+            app:teamLine="FORWARD" />
+
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/coach"
+            android:name="com.uefa.ui.TeamLineFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/forwards"
+            app:teamLine="COACH" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/bench"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_pro_regular"
+            android:padding="16dp"
+            android:textColor="?attr/competitionSecondaryTextColor"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/coach"
+            tools:text="* Player list B" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
+
+

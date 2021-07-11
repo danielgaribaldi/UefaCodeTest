@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/competitionPrimaryBackgroundColor"
+    android:paddingStart="15.5dp"
+    android:paddingTop="10.5dp"
+    android:paddingEnd="15.5dp"
+    android:paddingBottom="8.5dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/player_image"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Image.ROUND"
+        tools:src="@drawable/ucl_background" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/player_name"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginStart="7.5dp"
+        android:fontFamily="@font/sf_pro_regular"
+        android:gravity="center"
+        android:textColor="?attr/competitionPrimaryTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/player_name"
+        app:layout_constraintStart_toEndOf="@+id/player_image"
+        app:layout_constraintTop_toTopOf="@+id/player_image"
+        tools:text="Player name" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/player_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_pro_regular"
+        android:textColor="?attr/competitionSecondaryTextColor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/player_image"
+        app:layout_constraintStart_toStartOf="@+id/player_name"
+        tools:text="Country" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/player_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/champions_bold"
+        android:gravity="center"
+        android:textColor="?attr/competitionPrimaryTextColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

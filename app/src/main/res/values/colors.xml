@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ucl_blue_dark">#000040</color>
+    <color name="ucl_blue">#0A0161</color>
+    <color name="ucl_blue_secondary">#151573</color>
+    <color name="ucl_accent">#5AF7DC</color>
+    <color name="ucl_accent_secondary">#009688</color>
+    <color name="ucl_primaryTextColor">#FFFFFFFF</color>
+    <color name="ucl_secondaryTextColor">#B3FFFFFF</color>
+
+
+    <color name="uel_gray_dark">#000000</color>
+    <color name="uel_gray">#1C1C1E</color>
+    <color name="uel_gray_secondary">#2C2C2E</color>
+    <color name="uel_accent">#FF6900</color>
+    <color name="uel_accent_secondary">#9C4000</color>
+    <color name="uel_primaryTextColor">#FFFFFFFF</color>
+    <color name="uel_secondaryTextColor">#B3FFFFFF</color>
+
+
+</resources>
