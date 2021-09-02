@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="customAttrs">
+        <attr name="competitionBackground" format="reference" />
+        <attr name="competitionPrimaryTextColor" format="reference" />
+        <attr name="competitionSecondaryTextColor" format="reference" />
+
+        <attr name="competitionPrimaryBackgroundColor" format="reference" />
+        <attr name="competitionSecondaryBackgroundColor" format="reference" />
+
+        <attr name="competitionTabBackground" format="reference" />
+        <attr name="competitionSelectedTextColor" format="reference" />
+        <attr name="competitionTextColor" format="reference" />
+        <attr name="competitionIndicatorColor" format="reference" />
+
+
+    </declare-styleable>
+
+
+    <declare-styleable name="com.uefa.ui.TeamLineFragment">
+        <attr name="teamLine" format="string"/>
+    </declare-styleable>
+
+</resources>

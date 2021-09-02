@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Uefa Test</string>
+    <string name="uefa_champions_league">Uefa Champions League</string>
+    <string name="uefa_europe_league">Uefa Europe League</string>
+    <string name="club_menu_item">Club</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="overview_tab">Overview</string>
+    <string name="matches_tab">Matches</string>
+    <string name="groups_tab">Groups</string>
+    <string name="stats_tab">Stats</string>
+    <string name="squad_tab">Squad</string>
+
+    <string name="goalkeepers">Goalkeepers</string>
+    <string name="defenders">Defenders</string>
+    <string name="midfielders">Midfielders</string>
+    <string name="forwards">Forwards</string>
+    <string name="coach">Coach</string>
+    <string name="playing">Playing</string>
+    <string name="round_of_16">Round of 16</string>
+
+</resources>

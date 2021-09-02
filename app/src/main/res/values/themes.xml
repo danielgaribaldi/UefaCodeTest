@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.UefaTest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.UefaTest.Ucl" parent="Theme.UefaTest">
+        <item name="colorPrimary">@color/ucl_blue</item>
+        <item name="colorPrimaryVariant">@color/ucl_blue_secondary</item>
+        <item name="colorSecondary">@color/ucl_accent</item>
+        <item name="colorSecondaryVariant">@color/ucl_accent_secondary</item>
+        <item name="colorOnPrimary">@color/ucl_primaryTextColor</item>
+        <item name="colorOnSecondary">@color/ucl_secondaryTextColor</item>
+
+        <!-- Custom attrs. -->
+
+        <item name="competitionPrimaryBackgroundColor">@color/ucl_blue</item>
+        <item name="competitionSecondaryBackgroundColor">@color/ucl_blue_dark</item>
+
+
+        <item name="competitionPrimaryTextColor">@color/ucl_primaryTextColor</item>
+        <item name="competitionSecondaryTextColor">@color/ucl_secondaryTextColor</item>
+        <item name="competitionBackground">@drawable/ucl_background</item>
+
+        <item name="competitionTabBackground">@color/ucl_blue_secondary</item>
+        <item name="competitionSelectedTextColor">@color/ucl_accent</item>
+        <item name="competitionTextColor">@color/ucl_primaryTextColor</item>
+        <item name="competitionIndicatorColor">@color/ucl_accent</item>
+    </style>
+
+    <style name="Theme.UefaTest.Uel" parent="Theme.UefaTest">
+        <item name="colorPrimary">@color/uel_gray</item>
+        <item name="colorPrimaryVariant">@color/uel_gray_secondary</item>
+        <item name="colorSecondary">@color/uel_accent</item>
+        <item name="colorSecondaryVariant">@color/uel_accent_secondary</item>
+        <item name="colorOnPrimary">@color/uel_primaryTextColor</item>
+        <item name="colorOnSecondary">@color/uel_secondaryTextColor</item>
+
+        <!-- Custom attrs. -->
+
+        <item name="competitionPrimaryBackgroundColor">@color/uel_gray</item>
+        <item name="competitionSecondaryBackgroundColor">@color/uel_gray_dark</item>
+
+        <item name="competitionPrimaryTextColor">@color/uel_primaryTextColor</item>
+        <item name="competitionSecondaryTextColor">@color/uel_secondaryTextColor</item>
+        <item name="competitionBackground">@drawable/uel_background</item>
+
+        <item name="competitionTabBackground">@color/uel_gray_secondary</item>
+        <item name="competitionSelectedTextColor">@color/uel_accent</item>
+        <item name="competitionTextColor">@color/uel_primaryTextColor</item>
+        <item name="competitionIndicatorColor">@color/uel_accent</item>
+
+    </style>
+
+
+    <style name="UefaTabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:font">@font/sf_pro_regular</item>
+    </style>
+
+    <style name="Theme.UefaTest.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.UefaTest.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="ShapeAppearance.Image.ROUND" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
